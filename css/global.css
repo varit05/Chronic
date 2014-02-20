@@ -40,45 +40,20 @@ a:hover,a:focus{text-decoration:none}
 .main-menu li{padding:0 10px;font-size:15px;float:left}
 #links li.active a{border: 3px solid #333;color: #224CA1;font-weight: bold;background-color:#F6F5F6}
 .fixed{position:fixed;top:0;width:100%}
+.nav.main-menu >li > a {padding:7px 20px}
 #links {background:#0C83CA;font-weight:bold;}
- .box {
-        width: 100%;
-        height: 800px;
-        color: #fff;
-        padding: 10px;
-    }
- 	/*#home {margin:0}*/
-    #home {
-        margin:0;
-        background: blue;
-    }
- 
-    #about {
-        background: red;
-    }
- 
-    #work {
-        background: green;
-    }
- 
-    #client {
-        background: gray;
-    }
-	#contact {
-        background: yellow;
-    }
-	.overlay {
-    background: none repeat scroll 0 0 rgba(84, 196, 196, 0.92);
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 2;
-}
+.box {width: 100%;height: 800px;color: #fff;padding: 10px;}
+#home {margin:0;background:#000}
+#about {background: red;}
+#work {background: green;}
+#client {background: gray;}
+#contact {background: yellow;}
+body{width:12000px;}
+.section{margin:0px;bottom:0px;width:4000px;float:left;height:100%;text-shadow:1px 1px 2px #f0f0f0;background:#F3FAFE}
+.section h2{margin:50px 0px 30px 50px;}
+.section p{margin:20px 0px 0px 50px;width:600px;}
 .bodywrapper,.bottom-header{ padding: 0px; background-color:#EFEFEF;}
+.footersection p {margin:0; color:#FFF;text-align:center}
 /** Body Starts From Here **/
 /* End CSS -------------------------------------------------------------------------------------------------------------------------------- */
 .pos-rel{position:relative;}
